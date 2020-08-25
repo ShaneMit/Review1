@@ -4,22 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    .myDiv {
-      background-color: red;
-      height: 500px;
-      width: 500px;
-      padding: 50px;
-      border: 20px solid black;
-      margin: auto;
+    #myNav {
+      height: 100px;
+      width: 100%;
+      background-color: grey;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+
     }
-    #bottom {
-      margin-top: 50px
+
+    #myBrand {
+      font-size: 50px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: white;
+      position: absolute;
+      left: 25px;
+      top: 13px;
+      margin: 0px;
+
     }
   </style>
   <title>Review</title>
 </head>
 <body>
-  <div class="myDiv"></div>
-  <div id="bottom" class="myDiv"></div>
+  <nav id="myNav">
+    <h1 id="myBrand">My awesome app</h1>
+  </nav>
 </body>
 </html>
