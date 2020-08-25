@@ -4,32 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    #myNav {
-      height: 100px;
-      width: 100%;
-      background-color: grey;
-      position: fixed;
-      top: 0px;
-      left: 0px;
-
+    #myDiv {
+      width:500px;
+      height: 500px;
+      background-color: red;
     }
 
-    #myBrand {
-      font-size: 50px;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      color: white;
-      position: absolute;
-      left: 25px;
-      top: 13px;
-      margin: 0px;
-
+    #myDiv:hover {
+      width:250px;
+      height: 250px;
+      background-color: blue;
+    }
+    #myDiv:active {
+      background-color: green;
     }
   </style>
   <title>Review</title>
 </head>
 <body>
-  <nav id="myNav">
-    <h1 id="myBrand">My awesome app</h1>
-  </nav>
+  <div id="myDiv"></div>
 </body>
 </html>
